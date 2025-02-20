@@ -1,0 +1,59 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ebd9c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.instagram-btn {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+}
+
+.location-btn {
+    background: linear-gradient(45deg, #00C6FF, #0072FF);
+}
+
+.button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
